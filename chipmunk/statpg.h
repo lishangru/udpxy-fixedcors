@@ -30,6 +30,7 @@
 
 static const char HTML_PAGE_HEADER[] =
         "HTTP/1.0 200 OK\n"
+        "Access-Control-Allow-Origin: *"
         "Content-type: text/html\n\n";
 
 static const char* STAT_PAGE_BASE[] = {
